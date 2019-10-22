@@ -26,8 +26,9 @@ We use [three.js](https://threejs.org/) for the graphics part, [cannon.js](http:
 
 ## Development
 
-If you want to build this project, you first have to buy the used fonts (or use different ones). The fonts are available [here](https://www.myfonts.com/fonts/urw/antique-olive/nord-d-regular/) and
-[here](https://www.myfonts.com/fonts/linotype/futura/pro-medium-oblique/). Place them into `src/fonts` with the names `AntiqueOlive`, `Futura` and `FuturaItalic` with the extensions `.eot`, `.ttf`, `.woff`, `.woff2` and `.json` (you can convert them to json [here](https://gero3.github.io/facetype.js/)).
+As opposed to the original project, this fork uses free fonts: ["Muli Italic"](https://fonts.google.com/specimen/Muli)
+(licensed under Open Font License) replacing "Futura Italice" and ["Open Sans"](https://fonts.google.com/specimen/Open+Sans)
+(licensed under Apache 2.0) replacing "Antique Olive".
 
 * Run `npm install` or `yarn`
 * Run `gulp`
